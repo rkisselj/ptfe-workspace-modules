@@ -16,7 +16,7 @@ variable "subnet_address_prefixes" {
 }
 
 module "networking" {
-  source  = "app.terraform.io/YOUR_ORG_NAME/networking/azurerm"
+  source  = "app.terraform.io/training-rtk/networking/azurerm"
   version = "0.12.0"
 
   name                    = var.name
